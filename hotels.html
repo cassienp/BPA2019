@@ -13,10 +13,10 @@
     <header>
       <nav id="nav">
         <ul id="navigation">
-           <li> <img src="images/bpalogo.png"></li>
+          <li id="logo"><img src="images/bpalogo.png"></li>
           <li class="navtabs"><a id="navtabs" href="index.html">Home</a></li>
-          <li class="navtabs"><a id="navtabs" href="#">Convention Information</a></li>
-          <li class="navtabs"><a id="navtabs" href="monuments.html">Monuments</a></li>
+          <li class="navtabs"><a id="navtabs" href="coninfo.html">Conference Information</a></li>
+          <li class="navtabs"><a id="navtabs" href="monuments.html">Monuments &amp; Memorials</a></li>
           <li class="navtabs"><a id="navtabs" href="#">Restaurants</a></li>
           <li class="navtabs"><a id="navtabs" href="hotels.html">Hotels</a></li>
           <li class="navtabs"><a id="navtabs" href="#">Transportation</a></li>
@@ -27,16 +27,17 @@
 
     <div id="heading">
         <div class="w3-content w3-section" style="max-width:1000px">
-          <img src = "images/monument.jpg" style="width:100%">
+          <img src = "images/memorialBridge2.jpg" style="width:100%">
           <div class = "w3-display-middle">
-            <p class="head">Hotels</p>
+            <!-- <p class="head">Hotels</p>-->
           </div>
         </div>
     </div>
-
-    <section class = "text">
+      <div id="content">
+        <div class = "text">
       <p>
       <ol>
+<<<<<<< HEAD
         <li>The Avery<br/>2616 P St NW, Washington, DC 20007<br/>4-Star hotel with a bar/lounge.  Near Georgetown University.  Includes WIFI and breakfast.<br>$$</li>
 
         <li>Homewood Suites by Hilton<br/>50 M St SE, Washington, DC 20003<br/>3-Star Hotel with an indoor pool.  Under 10 minute walk to the Capitol Riverfront and two miles from the City Center.  Includes WIFI, fitness center, breakfast buffet<br/>The visitors center offers guided walking tours and trolley tours. Trolley tours are $12/adult $9/senior $6/child. You are also welcome to self-tour at your leisure.<br/>Photographs are welcome, but please refrain from capturing funerals and loved ones visiting grave sites.<br>$$</li>
@@ -56,25 +57,36 @@
         <li>Quality Inn and Suites<br />1600 New York Ave NE, Washington, DC 20002<br />2.5-Star hotel in Washington's Brentwood neighborhood.  Just under three miles to the Supreme Court and Library of Congress.  Includes WIFI, breakfast, fitness center<br>$</li>
 
         <li>Americana Hotel<br />1400 Richmond Hwy, Arlington, VA 22202<br />2.5-Star budget-friendly hotel near Arlington National Cemetery.  Includes WIFI, breakfast, airport shuttle<br>$</li>
+=======
+        <li class="listings--item"><a href="#" class="listing--name">The Avery</a><br/>2616 P St NW, Washington, DC 20007<br/>4-Star hotel with a bar/lounge.  Near Georgetown University.  Includes WIFI and breakfast.</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">Homewood Suites by Hilton</a><br/>50 M St SE, Washington, DC 20003<br/>3-Star Hotel with an indoor pool.  Under 10 minute walk to the Capitol Riverfront and two miles from the City Center.  Includes WIFI, fitness center, breakfast buffet<br/>The visitors center offers guided walking tours and trolley tours. Trolley tours are $12/adult $9/senior $6/child. You are also welcome to self-tour at your leisure.<br/>Photographs are welcome, but please refrain from capturing funerals and loved ones visiting grave sites.</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">Washington Plaza</a><br/>10 Thomas Cir NW, Washington, DC 20005<br/>3.5-Star hotel with an outdoor pool.  0.6 miles from the WHite House. On-site restaurant/lounge. Includes WIFI, fitness center, breakfast</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">Hotel 1600</a><br/>1600 Rhode Island Ave NW, Washington, DC 20036<br/>3-Star hotel near the White House. Includes WIFI, fitness center, breakfast</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">Holiday Inn</a><br/>550 C St SW, Washington, DC 20024<br/>3-Star hotel with an on-site restaurant and Starbucks.  Top-rated location.  11 minute walk to the US Capitol, 20 minute walk to the Washington Monument, 30 minute walk to the White House.  Includes WIFI, an outdoor pool, fitness center</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">The Hamilton Hotel</a><br/>1001 14th St NW, Washington, DC 20005<br/>4-Star hotel located in the Downtown City Center.  On-site restaurant, bar, Starbucks.  Less than 0.5 miles from the Washington Monument.  Includes WIFI, fitness center</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">Washington Court Hotel</a><br/>525 New Jersey Ave NW, Washington, DC 20001<br/>4-Star hotel with restaurant located in the Capitol Hill neighborhood.  1.4 miles from the City Center, 10 minute walk to the US Capitol.  Includes WIFI, fitness center</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">Hilton Garden Inn</a><br/>815 14th St NW, Washington, DC 20005<br/>3-Star hotel in a prime location.  Two blocks from the White House, 12 minute walk to the Washington Monument.  On-site restaurant/bar.  Includes WIFI, indoor pool, fitness center</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">Quality Inn and Suites</a><br />1600 New York Ave NE, Washington, DC 20002<br />2.5-Star hotel in Washington's Brentwood neighborhood.  Just under three miles to the Supreme Court and Library of Congress.  Includes WIFI, breakfast, fitness center</li>
+
+        <li class="listings--item"><a href="#" class="listing--name">Americana Hotel</a><br />1400 Richmond Hwy, Arlington, VA 22202<br />2.5-Star budget-friendly hotel near Arlington National Cemetery.  Includes WIFI, breakfast, airport shuttle</li>
+>>>>>>> e416a829a41743ba586c982cb965bd3b634f11db
       </ol>
     </p>
-    </section> 
-
-   
-<div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 38.883, lng: -77.045},
-          zoom: 8
-        });
-      }
-    </script>
-  <script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIGF0x3jXn_SE3PmvYk5e8YTO9bWwa-NI&callback=initMap">
-
-
-  </script> 
+    </div>
+ 
+  <div id="map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1DUxtkSE2ySCOkuK18Uh1TRM8q3flCeIP" width="640" height="480"></iframe></div>
+  </div>
+  
+  <footer>
+    <p>Name of Chapter? Idaho Falls, Idaho, The College of Eastern Idaho, 2019 BPA, Cassandra Perry, Perry Conricode, Cesar Reyes</p>
+  </footer>
   </body>
 </html>
