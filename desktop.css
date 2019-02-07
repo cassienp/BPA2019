@@ -1,0 +1,88 @@
+.container {
+
+}
+#heading {
+
+}
+/* Navigation */
+#nav {
+  color:#00061B;
+}
+#navigation {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color:;
+  border-bottom:2px solid #ED1C24;
+}
+.navtabs {
+  margin: 10px;
+  flex-grow:1;
+  text-align: center;
+  list-style-type: none;
+  padding-top:20px;
+}
+#navtabs {
+  font-family: signal-heavy;
+  font-size:19px;
+}
+#logo {
+  list-style-type:none;
+}
+.logo {
+  display:none;
+}
+/* General Page Rules */
+body {
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.slides {
+  display:none;
+}
+p {
+  font-size:15px;
+}
+.head {
+  font-size:48px;
+  color:white;
+  font-style:bold;
+}
+footer {
+  text-align:center;
+  background-color:#00061B;
+  color:#D2BE96;
+  padding:5px;
+}
+#content {
+  display:flex;
+  flex-wrap:nowrap;
+  /* changing this to a grid pushes the map to the bottom-center*/
+}
+.listings--item {
+    border-top: 1px solid #bfbfbf;
+    color: grey;
+}
+.listing--name {
+  color:#00061B;
+  font-size:20px;
+}
+.text {
+  margin:50px;
+}
+.text_home {
+  margin:50px;
+}
+#map {
+  height:500px;
+  width:1500px;
+}
+ul.restaurant_list {
+  list-style-type: none;
+}
+.reservation_link {
+  color:#00061B;
+  font-size: 17px;
+}
